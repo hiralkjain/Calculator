@@ -5,7 +5,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background: #646465;
+    background: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@
    padding: 20px;
    border-radius: 10px;
    margin: 10px;
-   background-color: #070707;
+   background-color:  #646465;
    border: solid 3px white;
 }
 .calculator form input{
@@ -26,6 +26,7 @@
      border-radius: 10px;
      color:black;
      background-color: orange;
+     font-weight: 800;
 }
 form .display{
     display: flex;
@@ -37,5 +38,6 @@ form .display{
 form .display input{
     text-align: right;
     flex: 1;
-    font-size: 45px;
+    font-size: 35px;
+    font-weight: 500;
 }
